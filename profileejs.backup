@@ -1,0 +1,19 @@
+                    <!--
+                    
+                    <% if (user.facebook.token) { %>
+                        <p>
+                            <strong>User Id</strong>: <%= user._id %><br>
+                            <strong>Facebook Name</strong>: <%= user.facebook.name %><br>
+                            <strong>Facebook Email</strong>: <%= user.facebook.email %><br>
+                        </p>
+                    <% } else { %>
+                        <a href="/auth/facebook" class="btn btn-primary"><span class="fa fa-facebook"></span> Facebook</a>
+                    <% } %>
+                    <p>
+                        <strong>id</strong>: <%= user.twitter.id %><br>
+                        <strong>token</strong>: <%= user.twitter.token %><br>
+                        <strong>username</strong>: <%= user.twitter.username %><br>
+                        <strong>displayName</strong>: <%= user.twitter.displayName %>
+                    </p>
+                    
+                    -->
